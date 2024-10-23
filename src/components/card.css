@@ -1,0 +1,64 @@
+.card-component{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px;
+    background-color: #FFFFFF;
+    width: 100%;
+  
+    gap: 4px;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 3px 1px #f0f0f0;
+    -moz-box-shadow: 0 0 3px 1px #f0f0f0;
+    box-shadow: 0 0 3px 1px #f0f0f0;
+}
+
+.card-id{
+    display: flex;
+    color: #7b7b7b;
+    font-size: 12px;
+    flex-direction: row;
+}
+
+.card-title{
+    display: flex;
+    margin-bottom: 9px;
+    flex-direction: row;
+    font-size: 11px;
+    gap:5px;
+    display: -webkit-box;         /* Enables the use of -webkit-line-clamp */
+    -webkit-box-orient: vertical; /* Specifies the orientation of the box */
+    overflow: hidden;             /* Hides overflow text */
+    -webkit-line-clamp: 2;        /* Limits to 2 lines */
+    max-height: 3em;              /* Sets a maximum height to match 2 lines */
+    font-size: 12px;              /* Sets the font size */
+    line-height: 1.5;   
+}
+
+.card-tags{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.card-priority-holders{
+    padding: 0px 3px;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    -webkit-box-shadow: 0 0 1px 1px #f0f0f0;
+    -moz-box-shadow: 0 0 1px 1px #f0f0f0;
+    box-shadow: 0 0 1px 1px #f0f0f0;
+}
+
+.card-tag-holders{
+    font-size: 12px;
+    color: #575757;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 3px;
+    align-items: center;
+    -webkit-box-shadow: 0 0 1px 1px #f0f0f0;
+    -moz-box-shadow: 0 0 1px 1px #f0f0f0;
+    box-shadow: 0 0 1px 1px #f0f0f0;
+}
